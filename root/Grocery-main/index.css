@@ -23,7 +23,7 @@ nav .logo{
 }
 nav .logo h1{
     float: left;
-    color: chocolate;
+    color: black;
     text-transform: uppercase;
 }
 nav ul{
@@ -37,7 +37,7 @@ nav ul li{
 }
 nav ul li a{
     
-    color: chocolate;
+    color: black;
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ nav ul li a img:hover{
     opacity: 0.7;
 }
 nav ul li .act{
-    color: black;
+    color: green;
 }
 
 
@@ -106,7 +106,18 @@ nav ul li .act{
     .navbar-links.act{
         display: flex;
     }
-     
+    .homeimg .fairm{
+        /*display: none;*/
+        font-size: small;
+        padding-top: 100px;
+    }
+    .homeimg button{
+        padding-top: 250px;
+        font-size: smaller;
+    }
+    .logo .fair{
+        font-size: smaller;
+    } 
 }
 
 
@@ -211,3 +222,44 @@ nav ul li .act{
   .homebtn:focus::after {
     opacity: 1;
   }
+
+.homeimg{
+    position: relative;
+
+}
+.homeimg h1{
+    position: absolute;
+    font-size: 50px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+.homeimg h2{
+    position: absolute;
+    padding-top: 19%;
+    padding-left:15%;
+    font-size: 35PX;
+}
+.homeimg h3{
+    position: absolute;
+    padding-top: 21%;
+    padding-left: 15%;
+    font-size: 35PX;
+}
+.homeimg h4{
+    position: absolute;
+    padding-top: 23%;
+    padding-left: 15%;
+    font-size: 35PX;
+}
+.homeimg button{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 15%;
+    background-color: green;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+.homeimg button:hover{
+    opacity: 0.85;
+}
