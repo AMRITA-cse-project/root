@@ -50,16 +50,8 @@ nav ul li a{
     
     
 }*/
-.har:hover,.act:hover{
-    color: white;
-    background-color: black;
-    display: block;
-}
-nav ul li a img:hover{
-    opacity: 0.7;
-}
-nav ul li .act{
-    color: green;
+.har:hover{
+    opacity: 0.5;
 }
 
 
